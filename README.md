@@ -1,5 +1,7 @@
 Collection of Three.js sketches
 
+[Simple Textured Plane With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-plane-with-orbit-controls/)
+
 [Simple Cube With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-cube-with-orbit-controls/)
 
 [Simple Cube With Wide FOV](https://bculleec.github.io/threejs-sketches/threejs-cube-wide-fov/)
