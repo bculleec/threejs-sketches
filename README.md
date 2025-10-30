@@ -1,6 +1,6 @@
 Collection of Three.js sketches
 
-[Control Plane Vertices with Heightmap](https://bculleed.github.io/threejs-sketches/threejs-plane-with-heightmap/)
+[Control Plane Vertices with Heightmap](https://bculleec.github.io/threejs-sketches/threejs-plane-with-heightmap/)
 
 [Color Changing Torus Knot With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-torus-knot/)
 
