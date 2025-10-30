@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sketch #11: Heightmap Grid Plane three.js</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="importmap">
+    {
+    "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.180.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.180.0/examples/jsm/"
+    }
+    }
+    </script>
+  </head>
+  <body>
+    <h1 class="title">Sketch #11: Plane with Heightmap Grid</h1>
+    <div class="description">
+      Click the plane and drag it around.<br>
+      Scroll to zoom in/out.
+      Edit the values in the Heightmap change the vertex position in real-time.
+    </div>
+   
+    <canvas id="my-view-canvas" class="sketch-canvas" height=500 width=500 style="max-width: 500px; max-height: 500px;"></canvas>
+    <table id="height-grid">
+	    
+    </table>
+    <div class="info-box">
+	A wireframs is used for the plane geometry to see the vertices more easily and add visual interest.
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
