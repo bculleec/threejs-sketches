@@ -1,5 +1,7 @@
 Collection of Three.js sketches
 
+[Simple Wireframe Sphere With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-wireframe-sphere/)
+
 [Simple GIS Marker With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-gis-marker/)
 
 [N64-Style Textured Sphere With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-textured-sphere/)

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Wireframe Sphere #9 three.js</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="importmap">
+    {
+    "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.180.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.180.0/examples/jsm/"
+    }
+    }
+    </script>
+  </head>
+  <body>
+    <h1 class="title">Sketch #9: Simple Wireframe Sphere With Orbit Controls</h1>
+    <div class="description">
+      Click the sphere and drag it around.<br>
+      Scroll to zoom in/out.
+    </div>
+    
+    <canvas id="my-view-canvas" class="sketch-canvas" height=500 width=500 style="max-width: 500px; max-height: 500px;"></canvas>
+
+    <div class="info-box">
+	    The wireframe allows us to see the surface subdivisions easily.<br>
+	    This creates visual interest.
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
