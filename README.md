@@ -1,5 +1,7 @@
 Collection of Three.js sketches
 
+[Color Changing Torus Knot With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-torus-knot/)
+
 [Simple Wireframe Sphere With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-wireframe-sphere/)
 
 [Simple GIS Marker With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-gis-marker/)
