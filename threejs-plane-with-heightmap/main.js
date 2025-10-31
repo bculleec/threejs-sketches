@@ -29,7 +29,7 @@ const heightMap = []; // 400 values
 
 // create a plane geometry
 const gridSz = 10;
-const geometry = new THREE.PlaneGeometry(gridSz, gridSz, gridSz, gridSz); // 20 x 20 with 20 width and height segments
+const geometry = new THREE.PlaneGeometry(gridSz - 1, gridSz - 1, gridSz - 1, gridSz - 1); // 20 x 20 with 20 width and height segments
 const positions = geometry.attributes.position;
 
 for (let i = 0; i < positions.count; i++) {
