@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>NASA Sphere #12 three.js</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="importmap">
+    {
+    "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.180.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.180.0/examples/jsm/"
+    }
+    }
+    </script>
+  </head>
+  <body>
+    <h1 class="title">Sketch #12: NASA Earth Observatory map With Orbit Controls</h1>
+    <div class="description">
+      Click the sphere and drag it around.<br>
+      Scroll to zoom in/out.
+    </div>
+    
+    <canvas id="my-view-canvas" class="sketch-canvas" height=500 width=500 style="max-width: 500px; max-height: 500px;"></canvas>
+
+    <div class="info-box">
+      This is the NASA Earth Observatory map by Joshua Stevens using data from NASA’s MODIS Land Cover, the Shuttle Radar Topography Mission (SRTM), the General Bathymetric Chart of the Oceans (GEBCO), and Natural Earth boundaries.<br>
+      There are many things I don't know how to do yet in Three.js but this feels like a good milestone.
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>

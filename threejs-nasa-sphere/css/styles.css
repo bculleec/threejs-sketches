@@ -1,0 +1,37 @@
+:root {
+    color-scheme: dark;
+    --bg: #121212;
+    --text: #eaeaea;
+    --font: 'Inter', system-ui, -apple-system, sans-serif;
+    --accent: #1b1b1d;
+
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    max-width: 800px;
+    margin: auto;
+}
+
+.sketch-canvas {
+    width: 100%;
+    border-radius: 8px;
+}
+
+@media (max-width: 600px) {
+    body { padding: 1rem; }
+}
+
+.description {
+    margin: 10px 0;
+}
+
+.info-box {
+    margin: 10px 0;
+    width: 100%;
+    background-color: var(--accent);
+    padding: 20px;
+    border-radius: 8px;
+}
