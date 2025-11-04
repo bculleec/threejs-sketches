@@ -1,5 +1,7 @@
 Collection of Three.js sketches
 
+[Sphere Segment Facing Camera Detection](https://bculleec.github.io/threejs-sketches/threejs-sphere-segments/)
+
 [NASA Earth Observatory map With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-nasa-sphere/)
 
 [Control Plane Vertices with Heightmap](https://bculleec.github.io/threejs-sketches/threejs-plane-with-heightmap/)

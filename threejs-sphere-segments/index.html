@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Face Detection Sphere #13 three.js</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="importmap">
+    {
+    "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.180.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.180.0/examples/jsm/"
+    }
+    }
+    </script>
+  </head>
+  <body>
+    <h1 class="title">Sketch #13: Detects Segments Facing Camera</h1>
+    <div class="description">
+      Click the sphere and drag it around.<br>
+      Scroll to zoom in/out.
+    </div>
+    
+    <canvas id="my-view-canvas" class="sketch-canvas" height=500 width=500 style="max-width: 500px; max-height: 500px;"></canvas>
+
+    <div class="info-box">
+      This sphere is divided into 8 segments and we detect which ones face the camera.<br>
+      We do this by performing the dot product and checking the sign.<br>
+      Move around to see it in action.
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
