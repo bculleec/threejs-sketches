@@ -1,5 +1,7 @@
 Collection of Three.js sketches
 
+[Dynamic Tiles Loading and Sphere Projection](https://bculleec.github.io/threejs-sketches/threejs-dynamic-tile-loading/)
+
 [Sphere Segment Facing Camera Detection](https://bculleec.github.io/threejs-sketches/threejs-sphere-segments/)
 
 [NASA Earth Observatory map With Orbit Controls](https://bculleec.github.io/threejs-sketches/threejs-nasa-sphere/)
