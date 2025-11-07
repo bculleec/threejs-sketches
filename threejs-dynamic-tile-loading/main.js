@@ -164,6 +164,10 @@ function animate() {
   } else if (camDistance > 15) {
     zoomLevel = 3 ;
   }
+
+  
+  controls.rotateSpeed = 1 / (10 * (zoomLevel || 1) ** 2);
+
   checkZoomLevelChange(zoomLevel);
   console.log(zoomLevel);
 
