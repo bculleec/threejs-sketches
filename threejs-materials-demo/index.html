@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sketch #15: three.js Materials Showcase</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script type="importmap">
+    {
+    "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.180.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.180.0/examples/jsm/"
+    }
+    }
+    </script>
+  </head>
+  <body>
+    <h1 class="title">Sketch #15: three.js Materials Showcase</h1>
+    <div class="description">
+      This is a simple demo of the different built-in mesh materials available in three.js!
+      Click the torus and drag it around.<br>
+      Scroll to zoom in/out.
+    </div>
+    
+    <canvas id="my-view-canvas" class="sketch-canvas" height=700 width=700 style="max-width: 700px; max-height: 700px;"></canvas>
+
+    <div class="info-box">
+	    These are some of the mesh materials available in three.js<br>
+      My favorites are MeshMatcapMaterial (middle), MeshNormalMaterial (middle-right) & the MeshToonMaterial (bottom-right)!
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
