@@ -1,5 +1,7 @@
 Collection of Three.js sketches
 
+[Mesh Materials Showcase](https://bculleec.github.io/threejs-sketches/threejs-materials-demo/)
+
 [Dynamic Tiles Loading and Sphere Projection](https://bculleec.github.io/threejs-sketches/threejs-dynamic-tile-loading/)
 
 [Sphere Segment Facing Camera Detection](https://bculleec.github.io/threejs-sketches/threejs-sphere-segments/)
